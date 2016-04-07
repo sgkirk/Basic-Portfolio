@@ -8,24 +8,48 @@
 header {
 
 	background-color: white;
-	font-family: 'Georgia', Times, Times New Roman, serif;
+	overflow: auto;
 
 }
+
+h1 {
+	font:font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 28px;
+	font-weight: bold;
+}
+
 h1.name {
-	float: left;
 	background-color: #4aaaa5;
-	width: 25%;
-	padding: 60px 0px 0px 60px;
-	margin: 20px 0px 0px 20px;
-
-}
-
-nav ul li {
+	color: white;
 	float: left;
 
+
 }
 
 
+nav {
+	float: right;
+}
+hr {
+	color: #dddddd;
+}
+
+.aboutme {
+	width: 650px;
+	float: left;
+}
+
+.aside {
+	width: 270px;
+	float: right;
+	overflow: auto;
+}
+
+footer {
+	width: 960px;
+	margin: 0 auto;
+
+}
 
 
 
