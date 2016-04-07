@@ -6,19 +6,23 @@
 
 header {
 
-	background-color: white;
 	overflow: auto;
+	max-height: 68px;
 
 }
 
 h1 {
-	font:font-family: 'Georgia', Times, Times New Roman, serif;
+	font-family: 'Georgia', Times, Times New Roman, serif;
 	font-size: 28px;
-	font-weight: bold;
+	
 }
 
-h1.name {
+.name {
 	background-color: #4aaaa5;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 	color: white;
 	float: left;
 
@@ -28,23 +32,74 @@ h1.name {
 
 nav {
 	float: right;
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	font-size: 14px;
 }
+
+
+
+a:link {
+    text-decoration: none;
+    color: #777777;
+    padding-left: 20px;
+
+
+}
+
+a:visited {
+     text-decoration: none;
+    color: #777777;
+}
+
+a:hover {
+     text-decoration: none;
+    color: black;
+}
+
+a:active {
+      text-decoration: none;
+    color: #777777;
+}
+
+
+
+
 hr {
 	color: #dddddd;
+}
+
+.greybackground {
+	width: 100%;
+	background-color: #f2f2f2;
+		display: inline-block;
+		padding-top: 30px;
+		padding-bottom: 30px;
+		 border-top-style: solid;
+		 border-top-width: 2px;
+		 border-top-color: #dddddd;
+	
+
+
+
+
+	
 }
 
 .aboutme {
 	width: 650px;
 	float: left;
+	background-color: white;
+
 }
 
-.connect {
-	width: 270px;
-	float: left;
-	overflow: auto;
-}
 
 .connectwithme {
+	background-color: white;
+	width: 270px;
+	margin-left: 40px;
+	float: left;
 	overflow: auto;
 }
 
